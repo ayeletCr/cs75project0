@@ -1,5 +1,3 @@
 <div class="col1">
-  <?php
-    print $error;
-  ?>
+  <?php echo $error ?>
 </div>

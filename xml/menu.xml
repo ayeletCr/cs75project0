@@ -3,44 +3,60 @@
     <item>
       <name>Tomato &amp; Cheese</name>
       <description></description>
-      <information size="small" price="550"></information>
-      <information size="large" price="975"></information>
-      <information extras="small extra cheese" price="125"></information>
-      <information extras="large extra cheese" price="185"></information>
+      <size size="small" price="550">
+        <extras name="Extra Cheese" price="125"></extras>
+      </size>
+      <size size="large" price="975">
+        <extras name="Extra Cheese" price="185"></extras>
+      </size>
     </item>
     <item>
       <name>Onions</name>
       <description></description>
-      <information size="small" price="685"></information>
-      <information size="large" price="1085"></information>
-      <information extras="small extra cheese" price="125"></information>
-      <information extras="large extra cheese" price="185"></information>
+      <size size="small" price="685">
+        <extras name="Extra Cheese" price="125"></extras>
+      </size>
+      <size size="large" price="1085">
+        <extras name="Extra Cheese" price="185"></extras>
+      </size>
     </item>
   </category>
   <category title="Speciality Pizzas">
     <item>
       <name>Three Aces Special</name>
       <description></description>
-      <information size="small" price="980"></information>
-      <information size="large" price="1580"></information>
+      <size size="small" price="980">
+        <extras></extras>
+      </size>
+      <size size="large" price="1580">
+        <extras></extras>
+      </size>
     </item>
     <item>
       <name>Mediterranean</name>
       <description>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese</description>
-      <information size="small" price="980"></information>
-      <information size="large" price="1580"></information>
+      <size size="small" price="980">
+        <extras></extras>
+      </size>
+      <size size="large" price="1580">
+        <extras></extras>
+      </size>
     </item>
   </category>
   <category title="Special Dinners">
     <item>
       <name>Chicken Wing Dinner</name>
       <description>All Dinners served with French Fries and Salad</description>
-      <information size="large" price="725"></information>
+      <size size="large" price="725">
+        <extras></extras>
+      </size>
     </item>
     <item>
       <name>Gyro Plate</name>
       <description>All Dinners served with French Fries and Salad</description>
-      <information size="large" price="725"></information>
+      <size size="large" price="725">
+        <extras></extras>
+      </size>
     </item>
   </category>
 </menu>
