@@ -9,7 +9,7 @@
       <?php foreach ($item['size'] as $size => $price): ?>
       <li><?php echo htmlspecialchars($size . ": $" . number_format(($price / 100), 2)) ?>
         <input type="number" min="1" max="99" name="number" value="1" required>
-        <input type="hidden" name="name" value="<?php echo $name ?>">
+        <input type="hidden" name="name" value="<?php echo $item['name'] ?>">
         <input type="hidden" name="size" value="<?php echo $size ?>">
         <input type="hidden" name="price" value="<?php echo $price ?>">
       </li>
