@@ -20,6 +20,16 @@
         <extras name="Extra Cheese" price="185"></extras>
       </size>
     </item>
+    <item>
+      <name>Peppers</name>
+      <description></description>
+      <size size="small" price="685">
+        <extras name="Extra Cheese" price="125"></extras>
+      </size>
+      <size size="large" price="1085">
+        <extras name="Extra Cheese" price="185"></extras>
+      </size>
+    </item>
   </category>
   <category title="Speciality Pizzas">
     <item>
@@ -42,10 +52,20 @@
         <extras></extras>
       </size>
     </item>
+    <item>
+      <name>Vegetarian</name>
+      <description>Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella</description>
+      <size size="small" price="980">
+        <extras></extras>
+      </size>
+      <size size="large" price="1580">
+        <extras></extras>
+      </size>
+    </item>
   </category>
   <category title="Special Dinners">
     <item>
-      <name>Chicken Wing Dinner</name>
+      <name>Chicken Wing</name>
       <description>All Dinners served with French Fries and Salad</description>
       <size size="large" price="725">
         <extras></extras>
@@ -55,6 +75,207 @@
       <name>Gyro Plate</name>
       <description>All Dinners served with French Fries and Salad</description>
       <size size="large" price="725">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Chicken Finger Plate</name>
+      <description>All Dinners served with French Fries and Salad</description>
+      <size size="large" price="725">
+        <extras></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Side Orders">
+    <item>
+      <name>Onion Rings</name>
+      <description></description>
+      <size size="small" price="260">
+        <extras></extras>
+      </size>
+      <size size="large" price="295">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>French Fries</name>
+      <description></description>
+      <size size="small" price="225">
+        <extras></extras>
+      </size>
+      <size size="large" price="265">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Spicy Fries</name>
+      <description></description>
+      <size size="small" price="260">
+        <extras></extras>
+      </size>
+      <size size="large" price="295">
+        <extras></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Salads">
+    <item>
+      <name>Garden</name>
+      <description></description>
+      <size size="small" price="350">
+        <extras></extras>
+      </size>
+      <size size="large" price="450">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Greek</name>
+      <description></description>
+      <size size="small" price="450">
+        <extras></extras>
+      </size>
+      <size size="large" price="550">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Antipasto</name>
+      <description></description>
+      <size size="small" price="450">
+        <extras></extras>
+      </size>
+      <size size="large" price="550">
+        <extras></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Pastas">
+    <item>
+      <name>Spaghetti</name>
+      <description></description>
+      <size size="regular" price="540">
+        <extras name="Sausage" price="105"></extras>
+        <extras name="Meat Ball" price="105"></extras>
+        <extras name="Veal" price="105"></extras>
+        <extras name="Chicken Cutlet" price="105"></extras>
+      </size>
+    </item>
+    <item>
+      <name>Ziti</name>
+      <description></description>
+      <size size="regular" price="540">
+        <extras name="Sausage" price="105"></extras>
+        <extras name="Meat Ball" price="105"></extras>
+        <extras name="Veal" price="105"></extras>
+        <extras name="Chicken Cutlet" price="105"></extras>
+      </size>
+    </item>
+    <item>
+      <name>Lasagna</name>
+      <description>Served with Garlic Bread and Salad</description>
+      <size size="regular" price="625">
+        <extras name="Sausage" price="100"></extras>
+        <extras name="Meat Ball" price="100"></extras>
+        <extras name="Veal" price="100"></extras>
+        <extras name="Chicken Cutlet" price="100"></extras>
+      </size>
+    </item>
+    <item>
+      <name>Ravioli</name>
+      <description>Served with Garlic Bread and Salad</description>
+      <size size="regular" price="625">
+        <extras name="Sausage" price="100"></extras>
+        <extras name="Meat Ball" price="100"></extras>
+        <extras name="Veal" price="100"></extras>
+        <extras name="Chicken Cutlet" price="100"></extras>
+      </size>
+    </item>
+    <item>
+      <name>Manicotti</name>
+      <description>Served with Garlic Bread and Salad</description>
+      <size size="regular" price="625">
+        <extras name="Sausage" price="100"></extras>
+        <extras name="Meat Ball" price="100"></extras>
+        <extras name="Veal" price="100"></extras>
+        <extras name="Chicken Cutlet" price="100"></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Homemade Calzones">
+    <item>
+      <name>Vegetarian</name>
+      <description>Comes with mushrooms, peppers &amp; onions</description>
+      <size size="large" price="735">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Sausage</name>
+      <description>Comes with mushrooms, peppers &amp; onions</description>
+      <size size="large" price="735">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Ham &amp; Cheese</name>
+      <description>Comes with mushrooms, peppers &amp; onions</description>
+      <size size="large" price="735">
+        <extras></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Wraps">
+    <item>
+      <name>Turkey Club</name>
+      <description>Turkey, Cheese, Lettuce, Tomato, Onion, Mayo</description>
+      <size size="regular" price="495">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Chicken Cobb</name>
+      <description>Grilled Chicken, Bacon, Cheese, Lettuce, Tomato, Onion, Honey Mustard</description>
+      <size size="regular" price="495">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Greek Supreme</name>
+      <description>Feta Cheese, Black Olives, Lettuce, Tomato, Onion, Greek Dressing</description>
+      <size size="regular" price="495">
+        <extras></extras>
+      </size>
+    </item>
+  </category>
+  <category title="Grinders">
+    <item>
+      <name>Meatless</name>
+      <description></description>
+      <size size="small" price="450">
+        <extras></extras>
+      </size>
+      <size size="large" price="495">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Hamburger</name>
+      <description></description>
+      <size size="small" price="450">
+        <extras></extras>
+      </size>
+      <size size="large" price="495">
+        <extras></extras>
+      </size>
+    </item>
+    <item>
+      <name>Cheeseburger</name>
+      <description></description>
+      <size size="small" price="475">
+        <extras></extras>
+      </size>
+      <size size="large" price="575">
         <extras></extras>
       </size>
     </item>

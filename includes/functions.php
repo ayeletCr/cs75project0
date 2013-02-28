@@ -8,17 +8,9 @@ function render($template, $data = array()) {
   }
 }
 
-function load($file, $data = array()) {
-  $path = __DIR__ . '/../html/' . $file . '.php';
-  if (file_exists($path)) {
-    extract($data);
-    require($path);
-  }
-}
-
 function get_items($title, $xml) {
 
-  if ($title == 'Project 0') {
+  if ($title == 'Project 0' || $title == '') {
     $items = array();
   }
   else {
@@ -32,7 +24,7 @@ function get_items($title, $xml) {
 
 function get_item($name, $size, $xml) {
 
-  $items = array();
+  $items = array('name' => 'Item not found.', 'description' => '', 'size' => array(), 'extras' => array());
 
   $query = '/menu/category/item[name="' . $name . '"]';
   foreach ($xml->xpath($query) as $item) {

@@ -31,6 +31,14 @@ else {
   $size = '';
 }
 
+if (isset($_SESSION['error'])) {
+  $error = $_SESSION['error'];
+  unset($_SESSION['error']);
+}
+else {
+  $error = '';
+}
+
 if (isset($_SESSION['total']) && isset($_SESSION['cart'])) {
   $total = $_SESSION['total'];
   $cart = $_SESSION['cart'];
@@ -42,16 +50,10 @@ else {
 
 if (isset($_SESSION['change'])) {
   $change = $_SESSION['change'];
+  unset($_SESSION['change']);
 }
 else {
   $change = '';
-}
-
-if (isset($_SESSION['error'])) {
-  $error = $_SESSION['error'];
-}
-else {
-  $error = '';
 }
 
 render('templates/header', array('title' => $title));
@@ -65,10 +67,16 @@ if (file_exists($path)) {
   }
   else if ($page == 'item') {
     $item = get_item($name, $size, $xml);
-    render('item', array('item' => $item, 'title' => $title, 'name' => $name));
+    render('item', array('item' => $item, 'title' => $title, 'name' => $name, 'error' => $error));
   }
   else if ($page == 'cart') {
-    render('cart', array('cart' => $cart, 'change' => $change));
+    render('cart', array('cart' => $cart, 'change' => $change, 'error' => $error));
+  }
+  else if ($page == 'checkout') {
+    render('checkout', array('cart' => $cart, 'total' => $total));
+    unset($_SESSION);
+    session_destroy();
+    $total = array();
   }
   else {
     $items = array();
